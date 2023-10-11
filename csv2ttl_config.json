@@ -3,7 +3,7 @@
   "title": [
     {
       "lang": "de",
-      "value": "Forschungsdatenzentrum Konstrukte "
+      "value": "Forschungsdatenzentrum Konstrukte"
     }
   ],
   "csv_delimiter": ";",
@@ -16,7 +16,7 @@
       "title": [
         {
           "lang": "de",
-          "value": "Constructs assessments"
+          "value": "Tests (IQB-Kompetenzkatalog)"
         }
       ],
       "description": [
@@ -31,7 +31,7 @@
       "title": [
         {
           "lang": "de",
-          "value": "Constructs processes"
+          "value": "Prozessdaten (Logdaten)"
         }
       ],
       "description": [
@@ -46,7 +46,7 @@
       "title": [
         {
           "lang": "de",
-          "value": "Constucts questionaires"
+          "value": "Fragebögen (Konstruktliste)"
         }
       ],
       "description": [
