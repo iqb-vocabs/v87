@@ -1,0 +1,23 @@
+{
+  "name": "v87",
+  "version": "0.1.0",
+  "description": "FDZ Konstrukte",
+  "main": "index.js",
+  "scripts": {
+    "run_id": "addidcsv",
+    "run_ttl": "csv2ttl"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/iqb-vocabs/v87.git"
+  },
+  "author": "",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/iqb-vocabs/v87/issues"
+  },
+  "homepage": "https://github.com/iqb-vocabs/v87#readme",
+  "dependencies": {
+    "@iqb/csv2ttl": "^0.6.3"
+  }
+}

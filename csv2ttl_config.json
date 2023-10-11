@@ -1,0 +1,60 @@
+{
+  "id": "FDZKonstrukte",
+  "title": [
+    {
+      "lang": "de",
+      "value": "Forschungsdatenzentrum Konstrukte "
+    }
+  ],
+  "csv_delimiter": ";",
+  "base": "https://w3id.org/iqb/v87",
+  "outDir": "./",
+  "creator": "IQB - Institut zur Qualitätsentwicklung im Bildungswesen",
+  "vocabularies": [
+    {
+      "id": "ca",
+      "title": [
+        {
+          "lang": "de",
+          "value": "Constructs assessments"
+        }
+      ],
+      "description": [
+        {
+          "lang": "de",
+          "value": ""
+        }
+      ]
+    },
+    {
+      "id": "cp",
+      "title": [
+        {
+          "lang": "de",
+          "value": "Constructs processes"
+        }
+      ],
+      "description": [
+        {
+          "lang": "de",
+          "value": ""
+        }
+      ]
+    },
+    {
+      "id": "cq",
+      "title": [
+        {
+          "lang": "de",
+          "value": "Constucts questionaires"
+        }
+      ],
+      "description": [
+        {
+          "lang": "de",
+          "value": ""
+        }
+      ]
+    }
+  ]
+}

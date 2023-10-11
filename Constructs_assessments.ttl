@@ -1,0 +1,833 @@
+@prefix dct: <http://purl.org/dc/terms/>.
+@prefix skos: <http://www.w3.org/2004/02/skos/core#>. 
+@prefix n0: <https://w3id.org/iqb/v87/ca/#>. 
+@prefix n1: <https://w3id.org/iqb/v87/ca/>. 
+
+n1:c16
+	 a skos:Concept;
+	skos:inScheme n0:;
+	skos:notation "1.1.1.1";
+	skos:broader n1:c14;
+	skos:prefLabel "Argumentieren"@de.
+n1:c17
+	 a skos:Concept;
+	skos:inScheme n0:;
+	skos:notation "1.1.1.2";
+	skos:broader n1:c14;
+	skos:prefLabel "Problemlösen"@de.
+n1:c18
+	 a skos:Concept;
+	skos:inScheme n0:;
+	skos:notation "1.1.1.3";
+	skos:broader n1:c14;
+	skos:prefLabel "Modellieren"@de.
+n1:c19
+	 a skos:Concept;
+	skos:inScheme n0:;
+	skos:notation "1.1.1.4";
+	skos:broader n1:c14;
+	skos:prefLabel "Darstellung"@de.
+n1:c20
+	 a skos:Concept;
+	skos:inScheme n0:;
+	skos:notation "1.1.1.5";
+	skos:broader n1:c14;
+	skos:prefLabel "Kommunizieren"@de.
+n1:c14
+	 a skos:Concept;
+	skos:inScheme n0:;
+	skos:notation "1.1.1";
+	skos:broader n1:c5;
+	skos:prefLabel "Prozessbezogene allgemeine mathematische Kompetenzen"@de;
+	skos:narrower 
+		n1:c16,
+		n1:c17,
+		n1:c18,
+		n1:c19,
+		n1:c20.
+n1:c21
+	 a skos:Concept;
+	skos:inScheme n0:;
+	skos:notation "1.1.2.1";
+	skos:broader n1:c15;
+	skos:prefLabel "Algorithmus &amp; Zahl"@de.
+n1:c22
+	 a skos:Concept;
+	skos:inScheme n0:;
+	skos:notation "1.1.2.2";
+	skos:broader n1:c15;
+	skos:prefLabel "Messen"@de.
+n1:c23
+	 a skos:Concept;
+	skos:inScheme n0:;
+	skos:notation "1.1.2.3";
+	skos:broader n1:c15;
+	skos:prefLabel "Raum und Form"@de.
+n1:c24
+	 a skos:Concept;
+	skos:inScheme n0:;
+	skos:notation "1.1.2.4";
+	skos:broader n1:c15;
+	skos:prefLabel "Funktionaler Zusammenhang"@de.
+n1:c25
+	 a skos:Concept;
+	skos:inScheme n0:;
+	skos:notation "1.1.2.5";
+	skos:broader n1:c15;
+	skos:prefLabel "Daten und Zufall"@de.
+n1:c15
+	 a skos:Concept;
+	skos:inScheme n0:;
+	skos:notation "1.1.2";
+	skos:broader n1:c5;
+	skos:prefLabel "Inhaltsbezogene mathematische Kompetenzen"@de;
+	skos:narrower 
+		n1:c21,
+		n1:c22,
+		n1:c23,
+		n1:c24,
+		n1:c25.
+n1:c27
+	 a skos:Concept;
+	skos:inScheme n0:;
+	skos:notation "1.1.3";
+	skos:broader n1:c5;
+	skos:prefLabel "Mathematische Basiskompetenzen"@de.
+n1:c5
+	 a skos:Concept;
+	skos:inScheme n0:;
+	skos:notation "1.1";
+	skos:broader n1:c3;
+	skos:prefLabel "Mathematische Kompetenz"@de;
+	skos:narrower 
+		n1:c14,
+		n1:c15,
+		n1:c27.
+n1:c30
+	 a skos:Concept;
+	skos:inScheme n0:;
+	skos:notation "1.2.1.1.1";
+	skos:broader n1:c29;
+	skos:prefLabel "Basiskonzept System"@de.
+n1:c31
+	 a skos:Concept;
+	skos:inScheme n0:;
+	skos:notation "1.2.1.1.2";
+	skos:broader n1:c29;
+	skos:prefLabel "Basiskonzept Struktur und Funktion"@de.
+n1:c32
+	 a skos:Concept;
+	skos:inScheme n0:;
+	skos:notation "1.2.1.1.3";
+	skos:broader n1:c29;
+	skos:prefLabel "Basiskonzept Entwicklung"@de.
+n1:c29
+	 a skos:Concept;
+	skos:inScheme n0:;
+	skos:notation "1.2.1.1";
+	skos:broader n1:c28;
+	skos:prefLabel "Fachwissen"@de;
+	skos:narrower 
+		n1:c30,
+		n1:c31,
+		n1:c32.
+n1:c28
+	 a skos:Concept;
+	skos:inScheme n0:;
+	skos:notation "1.2.1";
+	skos:broader n1:c6;
+	skos:prefLabel "Biologische Kompetenz"@de;
+	skos:narrower 
+		n1:c29.
+n1:c39
+	 a skos:Concept;
+	skos:inScheme n0:;
+	skos:notation "1.2.2.1.1";
+	skos:broader n1:c38;
+	skos:prefLabel "Basiskonzept chemische Phänomene"@de.
+n1:c40
+	 a skos:Concept;
+	skos:inScheme n0:;
+	skos:notation "1.2.2.1.2";
+	skos:broader n1:c38;
+	skos:prefLabel "Basiskonzept Verständnis grundlegender Begriffe, Gesetzmäßigkeiten und Prinzipien"@de.
+n1:c41
+	 a skos:Concept;
+	skos:inScheme n0:;
+	skos:notation "1.2.2.1.3";
+	skos:broader n1:c38;
+	skos:prefLabel "Basiskonzept Verständnis grundlegender chemischer Modelle"@de.
+n1:c38
+	 a skos:Concept;
+	skos:inScheme n0:;
+	skos:notation "1.2.2.1";
+	skos:broader n1:c37;
+	skos:prefLabel "Fachwissen"@de;
+	skos:narrower 
+		n1:c39,
+		n1:c40,
+		n1:c41.
+n1:c37
+	 a skos:Concept;
+	skos:inScheme n0:;
+	skos:notation "1.2.2";
+	skos:broader n1:c6;
+	skos:prefLabel "Chemie-Kompetenz"@de;
+	skos:narrower 
+		n1:c38.
+n1:c48
+	 a skos:Concept;
+	skos:inScheme n0:;
+	skos:notation "1.2.3.1.1";
+	skos:broader n1:c47;
+	skos:prefLabel "Basiskonzept Materie"@de.
+n1:c49
+	 a skos:Concept;
+	skos:inScheme n0:;
+	skos:notation "1.2.3.1.2";
+	skos:broader n1:c47;
+	skos:prefLabel "Basiskonzept Wechselwirkung"@de.
+n1:c50
+	 a skos:Concept;
+	skos:inScheme n0:;
+	skos:notation "1.2.3.1.3";
+	skos:broader n1:c47;
+	skos:prefLabel "Basiskonzept System"@de.
+n1:c51
+	 a skos:Concept;
+	skos:inScheme n0:;
+	skos:notation "1.2.3.1.4";
+	skos:broader n1:c47;
+	skos:prefLabel "Basiskonzept Energie"@de.
+n1:c47
+	 a skos:Concept;
+	skos:inScheme n0:;
+	skos:notation "1.2.3.1";
+	skos:broader n1:c46;
+	skos:prefLabel "Fachwissen"@de;
+	skos:narrower 
+		n1:c48,
+		n1:c49,
+		n1:c50,
+		n1:c51.
+n1:c46
+	 a skos:Concept;
+	skos:inScheme n0:;
+	skos:notation "1.2.3";
+	skos:broader n1:c6;
+	skos:prefLabel "Physik-Kompetenz"@de;
+	skos:narrower 
+		n1:c47.
+n1:c53
+	 a skos:Concept;
+	skos:inScheme n0:;
+	skos:notation "1.2.4.1";
+	skos:broader n1:c52;
+	skos:prefLabel "Erkenntnisgewinnung"@de.
+n1:c55
+	 a skos:Concept;
+	skos:inScheme n0:;
+	skos:notation "1.2.4.2";
+	skos:broader n1:c52;
+	skos:prefLabel "Kommunikation"@de.
+n1:c56
+	 a skos:Concept;
+	skos:inScheme n0:;
+	skos:notation "1.2.4.3";
+	skos:broader n1:c52;
+	skos:prefLabel "Bewertung"@de.
+n1:c52
+	 a skos:Concept;
+	skos:inScheme n0:;
+	skos:notation "1.2.4";
+	skos:broader n1:c6;
+	skos:prefLabel "Handlungsdimension"@de;
+	skos:narrower 
+		n1:c53,
+		n1:c55,
+		n1:c56.
+n1:c6
+	 a skos:Concept;
+	skos:inScheme n0:;
+	skos:notation "1.2";
+	skos:broader n1:c3;
+	skos:prefLabel "Naturwissenschaftliche Kompetenz"@de;
+	skos:narrower 
+		n1:c28,
+		n1:c37,
+		n1:c46,
+		n1:c52.
+n1:c60
+	 a skos:Concept;
+	skos:inScheme n0:;
+	skos:notation "1.3.1.1.1";
+	skos:broader n1:c58;
+	skos:prefLabel "Lesen"@de.
+n1:c61
+	 a skos:Concept;
+	skos:inScheme n0:;
+	skos:notation "1.3.1.1.2";
+	skos:broader n1:c58;
+	skos:prefLabel "Hörverstehen"@de.
+n1:c64
+	 a skos:Concept;
+	skos:inScheme n0:;
+	skos:notation "1.3.1.1.3";
+	skos:broader n1:c58;
+	skos:prefLabel "Phonologische Bewusstheit"@de.
+n1:c66
+	 a skos:Concept;
+	skos:inScheme n0:;
+	skos:notation "1.3.1.1.4";
+	skos:broader n1:c58;
+	skos:prefLabel "Wortschatz (Lexik)"@de.
+n1:c68
+	 a skos:Concept;
+	skos:inScheme n0:;
+	skos:notation "1.3.1.1.5";
+	skos:broader n1:c58;
+	skos:prefLabel "Grammatik (Morphologie &amp; Syntax)"@de.
+n1:c70
+	 a skos:Concept;
+	skos:inScheme n0:;
+	skos:notation "1.3.1.1.6";
+	skos:broader n1:c58;
+	skos:prefLabel "Auseinandersetzen mit Texten und Medien"@de.
+n1:c58
+	 a skos:Concept;
+	skos:inScheme n0:;
+	skos:notation "1.3.1.1";
+	skos:broader n1:c57;
+	skos:prefLabel "Rezeptiv"@de;
+	skos:narrower 
+		n1:c60,
+		n1:c61,
+		n1:c64,
+		n1:c66,
+		n1:c68,
+		n1:c70.
+n1:c62
+	 a skos:Concept;
+	skos:inScheme n0:;
+	skos:notation "1.3.1.2.1";
+	skos:broader n1:c59;
+	skos:prefLabel "Sprechen"@de.
+n1:c65
+	 a skos:Concept;
+	skos:inScheme n0:;
+	skos:notation "1.3.1.2.2.1";
+	skos:broader n1:c63;
+	skos:prefLabel "Orthographie (Rechtschreibung)"@de.
+n1:c63
+	 a skos:Concept;
+	skos:inScheme n0:;
+	skos:notation "1.3.1.2.2";
+	skos:broader n1:c59;
+	skos:prefLabel "Schreiben"@de;
+	skos:narrower 
+		n1:c65.
+n1:c67
+	 a skos:Concept;
+	skos:inScheme n0:;
+	skos:notation "1.3.1.2.3";
+	skos:broader n1:c59;
+	skos:prefLabel "Wortschatz (Lexik)"@de.
+n1:c69
+	 a skos:Concept;
+	skos:inScheme n0:;
+	skos:notation "1.3.1.2.4";
+	skos:broader n1:c59;
+	skos:prefLabel "Grammatik (Morphologie &amp; Syntax)"@de.
+n1:c59
+	 a skos:Concept;
+	skos:inScheme n0:;
+	skos:notation "1.3.1.2";
+	skos:broader n1:c57;
+	skos:prefLabel "Produktiv"@de;
+	skos:narrower 
+		n1:c62,
+		n1:c63,
+		n1:c67,
+		n1:c69.
+n1:c57
+	 a skos:Concept;
+	skos:inScheme n0:;
+	skos:notation "1.3.1";
+	skos:broader n1:c7;
+	skos:prefLabel "Deutsch"@de;
+	skos:narrower 
+		n1:c58,
+		n1:c59.
+n1:c73
+	 a skos:Concept;
+	skos:inScheme n0:;
+	skos:notation "1.3.2.1.1";
+	skos:broader n1:c72;
+	skos:prefLabel "Interkulturelle kommunikative Kompetenz"@de.
+n1:c75
+	 a skos:Concept;
+	skos:inScheme n0:;
+	skos:notation "1.3.2.1.2.1";
+	skos:broader n1:c74;
+	skos:prefLabel "Hör-/ Hörsehverstehen"@de.
+n1:c76
+	 a skos:Concept;
+	skos:inScheme n0:;
+	skos:notation "1.3.2.1.2.2";
+	skos:broader n1:c74;
+	skos:prefLabel "Leseverstehen"@de.
+n1:c77
+	 a skos:Concept;
+	skos:inScheme n0:;
+	skos:notation "1.3.2.1.2.3";
+	skos:broader n1:c74;
+	skos:prefLabel "Schreiben"@de.
+n1:c78
+	 a skos:Concept;
+	skos:inScheme n0:;
+	skos:notation "1.3.2.1.2.4";
+	skos:broader n1:c74;
+	skos:prefLabel "Sprechen"@de.
+n1:c79
+	 a skos:Concept;
+	skos:inScheme n0:;
+	skos:notation "1.3.2.1.2.5";
+	skos:broader n1:c74;
+	skos:prefLabel "Sprachmittlung"@de.
+n1:c80
+	 a skos:Concept;
+	skos:inScheme n0:;
+	skos:notation "1.3.2.1.2.6";
+	skos:broader n1:c74;
+	skos:prefLabel "Verfügen über sprachliche Mittel und kommunikative Strategien (Wortschatz, Grammatik, Aussprache &amp; Orthographie)"@de.
+n1:c74
+	 a skos:Concept;
+	skos:inScheme n0:;
+	skos:notation "1.3.2.1.2";
+	skos:broader n1:c72;
+	skos:prefLabel "Funktionale kommunikative Kompetenz"@de;
+	skos:narrower 
+		n1:c75,
+		n1:c76,
+		n1:c77,
+		n1:c78,
+		n1:c79,
+		n1:c80.
+n1:c81
+	 a skos:Concept;
+	skos:inScheme n0:;
+	skos:notation "1.3.2.1.3";
+	skos:broader n1:c72;
+	skos:prefLabel "Sprachbewusstheit"@de.
+n1:c82
+	 a skos:Concept;
+	skos:inScheme n0:;
+	skos:notation "1.3.2.1.4";
+	skos:broader n1:c72;
+	skos:prefLabel "Text- und Medienkompetenz"@de.
+n1:c72
+	 a skos:Concept;
+	skos:inScheme n0:;
+	skos:notation "1.3.2.1";
+	skos:broader n1:c71;
+	skos:prefLabel "Sprachkompetenz Englisch"@de;
+	skos:narrower 
+		n1:c73,
+		n1:c74,
+		n1:c81,
+		n1:c82.
+n1:c84
+	 a skos:Concept;
+	skos:inScheme n0:;
+	skos:notation "1.3.2.2.1";
+	skos:broader n1:c83;
+	skos:prefLabel "Interkulturelle kommunikative Kompetenz"@de.
+n1:c88
+	 a skos:Concept;
+	skos:inScheme n0:;
+	skos:notation "1.3.2.2.2.1";
+	skos:broader n1:c85;
+	skos:prefLabel "Hör-/ Hörsehverstehen"@de.
+n1:c89
+	 a skos:Concept;
+	skos:inScheme n0:;
+	skos:notation "1.3.2.2.2.2";
+	skos:broader n1:c85;
+	skos:prefLabel "Leseverstehen"@de.
+n1:c90
+	 a skos:Concept;
+	skos:inScheme n0:;
+	skos:notation "1.3.2.2.2.3";
+	skos:broader n1:c85;
+	skos:prefLabel "Schreiben"@de.
+n1:c91
+	 a skos:Concept;
+	skos:inScheme n0:;
+	skos:notation "1.3.2.2.2.4";
+	skos:broader n1:c85;
+	skos:prefLabel "Sprechen"@de.
+n1:c92
+	 a skos:Concept;
+	skos:inScheme n0:;
+	skos:notation "1.3.2.2.2.5";
+	skos:broader n1:c85;
+	skos:prefLabel "Sprachmittlung"@de.
+n1:c93
+	 a skos:Concept;
+	skos:inScheme n0:;
+	skos:notation "1.3.2.2.2.6";
+	skos:broader n1:c85;
+	skos:prefLabel "Verfügen über sprachliche Mittel und kommunikative Strategien"@de.
+n1:c85
+	 a skos:Concept;
+	skos:inScheme n0:;
+	skos:notation "1.3.2.2.2";
+	skos:broader n1:c83;
+	skos:prefLabel "Funktionale kommunikative Kompetenz"@de;
+	skos:narrower 
+		n1:c88,
+		n1:c89,
+		n1:c90,
+		n1:c91,
+		n1:c92,
+		n1:c93.
+n1:c86
+	 a skos:Concept;
+	skos:inScheme n0:;
+	skos:notation "1.3.2.2.3";
+	skos:broader n1:c83;
+	skos:prefLabel "Sprachbewusstheit"@de.
+n1:c87
+	 a skos:Concept;
+	skos:inScheme n0:;
+	skos:notation "1.3.2.2.4";
+	skos:broader n1:c83;
+	skos:prefLabel "Text- und Medienkompetenz"@de.
+n1:c83
+	 a skos:Concept;
+	skos:inScheme n0:;
+	skos:notation "1.3.2.2";
+	skos:broader n1:c71;
+	skos:prefLabel "Sprachkompetenz Französisch"@de;
+	skos:narrower 
+		n1:c84,
+		n1:c85,
+		n1:c86,
+		n1:c87.
+n1:c94
+	 a skos:Concept;
+	skos:inScheme n0:;
+	skos:notation "1.3.2.3";
+	skos:broader n1:c71;
+	skos:prefLabel "Sonstige Fremdsprachenkompetenz"@de.
+n1:c71
+	 a skos:Concept;
+	skos:inScheme n0:;
+	skos:notation "1.3.2";
+	skos:broader n1:c7;
+	skos:prefLabel "Fremdsprachenkompetenz"@de;
+	skos:narrower 
+		n1:c72,
+		n1:c83,
+		n1:c94.
+n1:c7
+	 a skos:Concept;
+	skos:inScheme n0:;
+	skos:notation "1.3";
+	skos:broader n1:c3;
+	skos:prefLabel "Sprachliche Kompetenz"@de;
+	skos:narrower 
+		n1:c57,
+		n1:c71.
+n1:c95
+	 a skos:Concept;
+	skos:inScheme n0:;
+	skos:notation "1.4.1";
+	skos:broader n1:c10;
+	skos:prefLabel "Geschichtskompetenz"@de.
+n1:c96
+	 a skos:Concept;
+	skos:inScheme n0:;
+	skos:notation "1.4.2";
+	skos:broader n1:c10;
+	skos:prefLabel "Geographie-Kompetenz"@de.
+n1:c97
+	 a skos:Concept;
+	skos:inScheme n0:;
+	skos:notation "1.4.3";
+	skos:broader n1:c10;
+	skos:prefLabel "Sozialkunde-Kompetenz"@de.
+n1:c98
+	 a skos:Concept;
+	skos:inScheme n0:;
+	skos:notation "1.4.4";
+	skos:broader n1:c10;
+	skos:prefLabel "Politik-Kompetenz"@de.
+n1:c10
+	 a skos:Concept;
+	skos:inScheme n0:;
+	skos:notation "1.4";
+	skos:broader n1:c3;
+	skos:prefLabel "Sozialwissenschaftliche Kompetenz"@de;
+	skos:narrower 
+		n1:c95,
+		n1:c96,
+		n1:c97,
+		n1:c98.
+n1:c115
+	 a skos:Concept;
+	skos:inScheme n0:;
+	skos:notation "1.5.1";
+	skos:broader n1:c114;
+	skos:prefLabel "Melodie"@de.
+n1:c116
+	 a skos:Concept;
+	skos:inScheme n0:;
+	skos:notation "1.5.2";
+	skos:broader n1:c114;
+	skos:prefLabel "Rhythmus"@de.
+n1:c117
+	 a skos:Concept;
+	skos:inScheme n0:;
+	skos:notation "1.5.3";
+	skos:broader n1:c114;
+	skos:prefLabel "Musik"@de.
+n1:c118
+	 a skos:Concept;
+	skos:inScheme n0:;
+	skos:notation "1.5.4";
+	skos:broader n1:c114;
+	skos:prefLabel "Gesang"@de.
+n1:c119
+	 a skos:Concept;
+	skos:inScheme n0:;
+	skos:notation "1.5.5";
+	skos:broader n1:c114;
+	skos:prefLabel "Metrum"@de.
+n1:c114
+	 a skos:Concept;
+	skos:inScheme n0:;
+	skos:notation "1.5";
+	skos:broader n1:c3;
+	skos:prefLabel "Musikalische Kompetenz"@de;
+	skos:narrower 
+		n1:c115,
+		n1:c116,
+		n1:c117,
+		n1:c118,
+		n1:c119.
+n1:c128
+	 a skos:Concept;
+	skos:inScheme n0:;
+	skos:notation "1.6.1.1";
+	skos:broader n1:c126;
+	skos:prefLabel "Wissen über Computernutzung"@de.
+n1:c129
+	 a skos:Concept;
+	skos:inScheme n0:;
+	skos:notation "1.6.1.2";
+	skos:broader n1:c126;
+	skos:prefLabel "Informationen finden und bewerten"@de.
+n1:c130
+	 a skos:Concept;
+	skos:inScheme n0:;
+	skos:notation "1.6.1.3";
+	skos:broader n1:c126;
+	skos:prefLabel "Verarbeitung von Information, Informationsmanagement"@de.
+n1:c126
+	 a skos:Concept;
+	skos:inScheme n0:;
+	skos:notation "1.6.1";
+	skos:broader n1:c120;
+	skos:prefLabel "Sammeln und Verarbeiten von Informationen"@de;
+	skos:narrower 
+		n1:c128,
+		n1:c129,
+		n1:c130.
+n1:c131
+	 a skos:Concept;
+	skos:inScheme n0:;
+	skos:notation "1.6.2.1";
+	skos:broader n1:c127;
+	skos:prefLabel "Transformation von Informationen"@de.
+n1:c132
+	 a skos:Concept;
+	skos:inScheme n0:;
+	skos:notation "1.6.2.2";
+	skos:broader n1:c127;
+	skos:prefLabel "Erzeugen von Informationen"@de.
+n1:c133
+	 a skos:Concept;
+	skos:inScheme n0:;
+	skos:notation "1.6.2.3";
+	skos:broader n1:c127;
+	skos:prefLabel "Austausch und Kommunikation von Informationen"@de.
+n1:c134
+	 a skos:Concept;
+	skos:inScheme n0:;
+	skos:notation "1.6.2.4";
+	skos:broader n1:c127;
+	skos:prefLabel "Kompetenzen für einen verantwortungsvollen und reflektierten Umgang mit ICT"@de.
+n1:c127
+	 a skos:Concept;
+	skos:inScheme n0:;
+	skos:notation "1.6.2";
+	skos:broader n1:c120;
+	skos:prefLabel "Produzieren und Austauschen von Informationen"@de;
+	skos:narrower 
+		n1:c131,
+		n1:c132,
+		n1:c133,
+		n1:c134.
+n1:c120
+	 a skos:Concept;
+	skos:inScheme n0:;
+	skos:notation "1.6";
+	skos:broader n1:c3;
+	skos:prefLabel "Computer- und informationsbezogene Kompetenz"@de;
+	skos:narrower 
+		n1:c126,
+		n1:c127.
+n1:c3
+	 a skos:Concept;
+	skos:inScheme n0:;
+	skos:notation "1";
+	skos:topConceptOf n0:;
+	skos:prefLabel "Domänespezifische kognitive Kompetenzen"@de;
+	skos:narrower 
+		n1:c5,
+		n1:c6,
+		n1:c7,
+		n1:c10,
+		n1:c114,
+		n1:c120.
+n1:c11
+	 a skos:Concept;
+	skos:inScheme n0:;
+	skos:notation "2.1";
+	skos:broader n1:c4;
+	skos:prefLabel "Intelligenz, kognitives Fähigkeitspotential"@de.
+n1:c103
+	 a skos:Concept;
+	skos:inScheme n0:;
+	skos:notation "2.2";
+	skos:broader n1:c4;
+	skos:prefLabel "Aufmerksamkeit &amp; Konzentrationsfähigkeit"@de.
+n1:c104
+	 a skos:Concept;
+	skos:inScheme n0:;
+	skos:notation "2.3";
+	skos:broader n1:c4;
+	skos:prefLabel "Gedächtnis"@de.
+n1:c105
+	 a skos:Concept;
+	skos:inScheme n0:;
+	skos:notation "2.4";
+	skos:broader n1:c4;
+	skos:prefLabel "Kreativität"@de.
+n1:c111
+	 a skos:Concept;
+	skos:inScheme n0:;
+	skos:notation "2.5";
+	skos:broader n1:c4;
+	skos:prefLabel "Wahrnehmungs- und Informationsverarbeitungsgeschwindigkeit"@de.
+n1:c4
+	 a skos:Concept;
+	skos:inScheme n0:;
+	skos:notation "2";
+	skos:topConceptOf n0:;
+	skos:prefLabel "Domäneübergreifende kognitive Grundkompetenzen"@de;
+	skos:narrower 
+		n1:c11,
+		n1:c103,
+		n1:c104,
+		n1:c105,
+		n1:c111.
+n1:c109
+	 a skos:Concept;
+	skos:inScheme n0:;
+	skos:notation "3.1.1";
+	skos:broader n1:c106;
+	skos:prefLabel "Selbstregulative Fähigkeiten"@de.
+n1:c110
+	 a skos:Concept;
+	skos:inScheme n0:;
+	skos:notation "3.1.2";
+	skos:broader n1:c106;
+	skos:prefLabel "Sprachenlernkompetenz"@de.
+n1:c106
+	 a skos:Concept;
+	skos:inScheme n0:;
+	skos:notation "3.1";
+	skos:broader n1:c12;
+	skos:prefLabel "prozedurale Metakognition"@de;
+	skos:narrower 
+		n1:c109,
+		n1:c110.
+n1:c107
+	 a skos:Concept;
+	skos:inScheme n0:;
+	skos:notation "3.2";
+	skos:broader n1:c12;
+	skos:prefLabel "deklarative Metakognition"@de.
+n1:c12
+	 a skos:Concept;
+	skos:inScheme n0:;
+	skos:notation "3";
+	skos:topConceptOf n0:;
+	skos:prefLabel "Metakompetenz"@de;
+	skos:narrower 
+		n1:c106,
+		n1:c107.
+n1:c13
+	 a skos:Concept;
+	skos:inScheme n0:;
+	skos:notation "4";
+	skos:topConceptOf n0:;
+	skos:prefLabel "Sonstiges"@de.
+n1:c112
+	 a skos:Concept;
+	skos:inScheme n0:;
+	skos:notation "5.1.1";
+	skos:broader n1:c100;
+	skos:prefLabel "diagnostische Kompetenz (Lehrkraft)"@de.
+n1:c100
+	 a skos:Concept;
+	skos:inScheme n0:;
+	skos:notation "5.1";
+	skos:broader n1:c99;
+	skos:prefLabel "Fachkompetenz"@de;
+	skos:narrower 
+		n1:c112.
+n1:c101
+	 a skos:Concept;
+	skos:inScheme n0:;
+	skos:notation "5.2";
+	skos:broader n1:c99;
+	skos:prefLabel "Sozialkompetenz"@de.
+n1:c102
+	 a skos:Concept;
+	skos:inScheme n0:;
+	skos:notation "5.3";
+	skos:broader n1:c99;
+	skos:prefLabel "Humankompetenz"@de.
+n1:c99
+	 a skos:Concept;
+	skos:inScheme n0:;
+	skos:notation "5";
+	skos:topConceptOf n0:;
+	skos:prefLabel "Handlungskompetenz"@de;
+	skos:narrower 
+		n1:c100,
+		n1:c101,
+		n1:c102.
+n0:
+	a skos:ConceptScheme;
+	dct:creator "IQB - Institut zur Qualitätsentwicklung im Bildungswesen"@de;
+	dct:title "Forschungsdatenzentrum Konstrukte  - Constructs assessments"@de;
+	skos:hasTopConcept
+		n1:c3,
+		n1:c4,
+		n1:c12,
+		n1:c13,
+		n1:c99.
