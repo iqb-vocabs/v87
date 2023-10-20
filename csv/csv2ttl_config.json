@@ -3,7 +3,7 @@
   "title": [
     {
       "lang": "de",
-      "value": "Forschungsdatenzentrum Konstrukte "
+      "value": "Forschungsdatenzentrum Konstrukte"
     }
   ],
   "csv_delimiter": ",",
@@ -16,11 +16,11 @@
       "title": [
         {
           "lang": "de",
-          "value": "Constructs assessments"
+          "value": "Tests (IQB-Kompetenzkatalog)"
         }
       ],
-      "filenameSource": "ca_Constructs_assessments.csv",
-      "filenameTarget": "ca_Constructs_assessments.ttl",
+      "filenameSource": "ca_Tests.csv",
+      "filenameTarget": "ca_Tests.ttl",
       "description": [
         {
           "lang": "de",
@@ -33,11 +33,11 @@
       "title": [
         {
           "lang": "de",
-          "value": "Constructs processes"
+          "value": "Prozessdaten (Logdaten)"
         }
       ],
-      "filenameSource": "cp_Constructs_processes.csv",
-      "filenameTarget": "cp_Constructs_processes.ttl",
+      "filenameSource": "cp_Prozessdaten.csv",
+      "filenameTarget": "cp_Prozessdaten.ttl",
       "description": [
         {
           "lang": "de",
@@ -50,11 +50,11 @@
       "title": [
         {
           "lang": "de",
-          "value": "Constucts questionaires"
+          "value": "Fragebögen (Konstruktliste)"
         }
       ],
-      "filenameSource": "cq_Constructs_questionaires.csv",
-      "filenameTarget": "cq_Constructs_questionaires.ttl",
+      "filenameSource": "cq_Frageboegen.csv",
+      "filenameTarget": "cq_Frageboegen.ttl",
       "description": [
         {
           "lang": "de",

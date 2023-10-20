@@ -621,7 +621,7 @@ n1:c83
 n0:
 	a skos:ConceptScheme;
 	dct:creator "IQB - Institut zur Qualitätsentwicklung im Bildungswesen"@de;
-	dct:title "Forschungsdatenzentrum Konstrukte  - Constucts questionaires"@de;
+	dct:title "Forschungsdatenzentrum Konstrukte - Fragebögen (Konstruktliste)"@de;
 	skos:hasTopConcept
 		n1:c1,
 		n1:c40,
