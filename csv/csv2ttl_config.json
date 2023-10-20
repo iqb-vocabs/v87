@@ -6,7 +6,7 @@
       "value": "Forschungsdatenzentrum Konstrukte "
     }
   ],
-  "csv_delimiter": ";",
+  "csv_delimiter": ",",
   "base": "https://w3id.org/iqb/v87",
   "outDir": "./",
   "creator": "IQB - Institut zur Qualitätsentwicklung im Bildungswesen",
@@ -19,6 +19,8 @@
           "value": "Constructs assessments"
         }
       ],
+      "filenameSource": "ca_Constructs_assessments.csv",
+      "filenameTarget": "ca_Constructs_assessments.ttl",
       "description": [
         {
           "lang": "de",
@@ -34,6 +36,8 @@
           "value": "Constructs processes"
         }
       ],
+      "filenameSource": "cp_Constructs_processes.csv",
+      "filenameTarget": "cp_Constructs_processes.ttl",
       "description": [
         {
           "lang": "de",
@@ -49,6 +53,8 @@
           "value": "Constucts questionaires"
         }
       ],
+      "filenameSource": "cq_Constructs_questionaires.csv",
+      "filenameTarget": "cq_Constructs_questionaires.ttl",
       "description": [
         {
           "lang": "de",
