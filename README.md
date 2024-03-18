@@ -5,3 +5,4 @@ Dieses Repository dient der Bereitstellung von Vokabularen für Metadaten in Pro
 * [Listen der Vokabular-Werte als Tabelle](csv)
 * [Informationen zum Metadaten-Management des IQB](https://iqb-vocabs.github.io)
 * [Kontakt IQB](mailto:iqb-tbadev@hu-berlin.de)
+
