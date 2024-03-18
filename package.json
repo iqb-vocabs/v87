@@ -1,6 +1,6 @@
 {
   "name": "iqb_vocabs_v87",
-  "version": "0.2.0",
+  "version": "0.3.0",
   "description": "FDZ Konstrukte",
   "scripts": {
     "run_id": "addidcsv csv",
