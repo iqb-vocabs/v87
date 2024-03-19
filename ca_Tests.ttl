@@ -146,7 +146,7 @@ n1:c72
 	skos:inScheme n0:;
 	skos:notation "1.3.2.1";
 	skos:broader n1:c71;
-	skos:prefLabel "Sprachkompetenz Englisch"@de;
+	skos:prefLabel "Sprachkompetenzen Englisch"@de;
 	skos:narrower 
 		n1:c75,
 		n1:c76,
@@ -181,7 +181,7 @@ n1:c83
 	skos:inScheme n0:;
 	skos:notation "1.3.2.2";
 	skos:broader n1:c71;
-	skos:prefLabel "Sprachkompetenz Französisch"@de;
+	skos:prefLabel "Sprachkompetenzen Französisch"@de;
 	skos:narrower 
 		n1:c88,
 		n1:c89,
@@ -198,7 +198,7 @@ n1:c71
 	skos:inScheme n0:;
 	skos:notation "1.3.2";
 	skos:broader n1:c7;
-	skos:prefLabel "Fremdsprachenkompetenz"@de;
+	skos:prefLabel "Fremdsprachenkompetenzen"@de;
 	skos:narrower 
 		n1:c72,
 		n1:c83,
@@ -266,13 +266,13 @@ n1:c112
 	skos:inScheme n0:;
 	skos:notation "5.1.1";
 	skos:broader n1:c100;
-	skos:prefLabel "diagnostische Kompetenz (Lehrkraft)"@de.
+	skos:prefLabel "diagnostische Kompetenz (Lehrkräfte)"@de.
 n1:c100
 	 a skos:Concept;
 	skos:inScheme n0:;
 	skos:notation "5.1";
 	skos:broader n1:c99;
-	skos:prefLabel "Fachkompetenz"@de;
+	skos:prefLabel "Fachkompetenz (Lehrkräfte)"@de;
 	skos:narrower 
 		n1:c112.
 n1:c101
