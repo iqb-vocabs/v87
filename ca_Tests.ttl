@@ -97,7 +97,7 @@ n1:c67
 	skos:inScheme n0:;
 	skos:notation "1.3.1.2.3";
 	skos:broader n1:c59;
-	skos:prefLabel "Wortschatz, aktiv(Lexik)"@de.
+	skos:prefLabel "Wortschatz, aktiv (Lexik)"@de.
 n1:c59
 	 a skos:Concept;
 	skos:inScheme n0:;
@@ -217,19 +217,22 @@ n1:c10
 	skos:inScheme n0:;
 	skos:notation "1.4";
 	skos:broader n1:c3;
-	skos:prefLabel "Kompetenzen in weiteren Schulfächern (z. B.: Geschichte/Geschichtswissenschaften, Geografie, Sozialkunde, Politik/Politische Weltkunde)"@de.
+	skos:prefLabel "Kompetenzen in weiteren Schulfächern"@de; 
+	skos:definition "z. B.: Geschichte/Geschichtswissenschaften, Geografie, Sozialkunde, Politik/Politische Weltkunde"@de.
 n1:c114
 	 a skos:Concept;
 	skos:inScheme n0:;
 	skos:notation "1.5";
 	skos:broader n1:c3;
-	skos:prefLabel "Musikalische Kompetenzen (Melodie, Rhythmus, Musik, Gesang, Metrum)"@de.
+	skos:prefLabel "Musikalische Kompetenzen"@de; 
+	skos:definition "Melodie, Rhythmus, Musik, Gesang, Metrum"@de.
 n1:c120
 	 a skos:Concept;
 	skos:inScheme n0:;
 	skos:notation "1.6";
 	skos:broader n1:c3;
-	skos:prefLabel "Computer- und informationsbezogene Kompetenzen (Computer Literacy, Information and Communication Technology (ICT))"@de.
+	skos:prefLabel "Computer- und informationsbezogene Kompetenzen"@de; 
+	skos:definition "Computer Literacy, Information and Communication Technology (ICT)"@de.
 n1:c3
 	 a skos:Concept;
 	skos:inScheme n0:;
@@ -248,7 +251,8 @@ n1:c4
 	skos:inScheme n0:;
 	skos:notation "2";
 	skos:topConceptOf n0:;
-	skos:prefLabel "Domänenübergreifende kognitive Fähigkeiten (z. B.: Intelligenz, Gedächtnis, Kreativität, Reasoning, Aufmerksamkeit und Konzentrationsfähigkeit, Wahrnehmungs- und Informationsverarbeitungsgeschwindigkeit)"@de.
+	skos:prefLabel "Domänenübergreifende kognitive Fähigkeiten"@de; 
+	skos:definition "z. B.: Intelligenz, Gedächtnis, Kreativität, Reasoning, Aufmerksamkeit und Konzentrationsfähigkeit, Wahrnehmungs- und Informationsverarbeitungsgeschwindigkeit"@de.
 n1:c12
 	 a skos:Concept;
 	skos:inScheme n0:;
