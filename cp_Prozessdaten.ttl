@@ -45,10 +45,17 @@ n1:c2
 	skos:narrower 
 		n1:c3,
 		n1:c6.
+n1:q9s
+	 a skos:Concept;
+	skos:inScheme n0:;
+	skos:notation "3";
+	skos:topConceptOf n0:;
+	skos:prefLabel "extra"@de.
 n0:
 	a skos:ConceptScheme;
 	dct:creator "IQB - Institut zur Qualitätsentwicklung im Bildungswesen"@de;
 	dct:title "Forschungsdatenzentrum Konstrukte - Prozessdaten (Logdaten)"@de;
 	skos:hasTopConcept
 		n1:c1,
-		n1:c2.
+		n1:c2,
+		n1:q9s.

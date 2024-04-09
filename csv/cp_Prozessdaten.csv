@@ -1,8 +1,8 @@
-notation,title,description,id
-1,"Log-Event-Typen",,"c1"
-1.1,"Geo-Tags",,"c4"
-1.2,"Time-Stamps",,"c5"
-2,"Indikatoren",,"c2"
-2.1,"Item-Bearbeitungszeit",,"c3"
-2.2,"Test-Bearbeitungszeit",,"c6"
-3,extra,,
+"notation","title","description","id","title_en","description_en"
+"1","Log-Event-Typen","","c1",,
+"1.1","Geo-Tags","","c4",,
+"1.2","Time-Stamps","","c5",,
+"2","Indikatoren","","c2",,
+"2.1","Item-Bearbeitungszeit","","c3",,
+"2.2","Test-Bearbeitungszeit","","c6",,
+"3","extra","","q9s",,
