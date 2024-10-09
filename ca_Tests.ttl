@@ -79,24 +79,22 @@ n1:c62
 	skos:notation "1.3.1.2.1";
 	skos:broader n1:c59;
 	skos:prefLabel "Sprechen"@de.
-n1:c65
-	 a skos:Concept;
-	skos:inScheme n0:;
-	skos:notation "1.3.1.2.2.1";
-	skos:broader n1:c63;
-	skos:prefLabel "Orthographie (Rechtschreibung)"@de.
 n1:c63
 	 a skos:Concept;
 	skos:inScheme n0:;
 	skos:notation "1.3.1.2.2";
 	skos:broader n1:c59;
-	skos:prefLabel "Schreiben"@de;
-	skos:narrower 
-		n1:c65.
-n1:c67
+	skos:prefLabel "Schreiben"@de.
+n1:c65
 	 a skos:Concept;
 	skos:inScheme n0:;
 	skos:notation "1.3.1.2.3";
+	skos:broader n1:c59;
+	skos:prefLabel "Orthographie (Rechtschreibung)"@de.
+n1:c67
+	 a skos:Concept;
+	skos:inScheme n0:;
+	skos:notation "1.3.1.2.4";
 	skos:broader n1:c59;
 	skos:prefLabel "Wortschatz, aktiv (Lexik)"@de.
 n1:c59
@@ -108,6 +106,7 @@ n1:c59
 	skos:narrower 
 		n1:c62,
 		n1:c63,
+		n1:c65,
 		n1:c67.
 n1:c57
 	 a skos:Concept;

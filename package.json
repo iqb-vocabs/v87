@@ -1,6 +1,6 @@
 {
   "name": "iqb_vocabs_v87",
-  "version": "0.4.0",
+  "version": "0.5.0",
   "description": "FDZ Konstrukte",
   "scripts": {
     "run_id": "addidcsv csv",
@@ -17,6 +17,6 @@
   },
   "homepage": "https://github.com/iqb-vocabs/v87#readme",
   "dependencies": {
-    "@iqb/csv2ttl": "^0.7.8"
+    "@iqb/csv2ttl": "^0.8.1"
   }
 }
